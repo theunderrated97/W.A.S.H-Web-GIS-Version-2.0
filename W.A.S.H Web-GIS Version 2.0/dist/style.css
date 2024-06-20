@@ -1,0 +1,80 @@
+#map {
+    width: 100%;
+    height:100vh;
+}
+
+.map-coordinate {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3px;
+    color: #fff;
+    background-color: rgb(78, 74, 74);
+    border: 0px solid black;
+    border-radius: 5%;
+}
+
+.full-screen {
+    padding:5px;
+    /* color:  */
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 220px
+}
+
+.zoom-to-layer{
+    padding: 5px;
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 260px;
+}
+
+.leaflet-measure-tool{
+    padding: 5px;
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 260px;
+}
+
+
+.leaflet-popup-content {
+    width: auto !important;
+}
+
+.leaflet-control.full-screen {
+    position: absolute;
+    top: 180px; /* Adjust the top position as needed */
+    right: 11.80px;
+    z-index: 600; /* Adjust the right position as needed */
+    /* You can also use other positioning properties based on your layout requirements */
+  }
+
+
+
+  /* Add these styles to your HTML or CSS */
+
+/* Style for the legend container */
+.legend-container {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the legend heading */
+.legend-heading {
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+/* Style for the legend content */
+.legend-content p {
+    margin: 0;
+    padding: 1px;
+}
+
+/* Add more styles as needed */
